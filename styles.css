@@ -1,0 +1,113 @@
+/* Reseta as margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #004080;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-contato {
+    background-color: #fff;
+    color: #004080;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Seção Principal */
+.main-section {
+    background-image: url('/foto.webp');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+
+.main-section .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.buttons button {
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Seção de Estratégias */
+.estrategias {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f2f2f2;
+}
+
+.logo-estrategia {
+    flex: 1;
+    text-align: center;
+}
+
+.text-estrategia {
+    flex: 2;
+    padding: 0 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #004080;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer-menu ul {
+    list-style: none;
+}
+
+.footer-menu ul li {
+    margin: 5px 0;
+}
+
+.footer-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
